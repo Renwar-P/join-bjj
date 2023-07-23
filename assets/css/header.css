@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Vidaloka&display=swap');
+
+
+.header {
+
+    font-family: Oswald;
+    font-weight: 900;
+
+    text-decoration: none;
+
+    background-size: 50%;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.header-logo {
+
+
+    flex: 1;
+    background: url('../images/graduation-pic.jpg') no-repeat center center;
+    width: 100%;
+    align-items: center;
+
+}
+
+
+
+#logo {
+
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: -7px;
+
+}
+
+.menu-nav {
+    color: #2D2F33;
+    width: 200px;
+
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+} 
+
+
+#menu li {
+
+    list-style-type: none;
+    padding-inline: 20px;
+    font-size: 30px;
+
+}
