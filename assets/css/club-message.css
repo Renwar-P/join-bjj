@@ -3,11 +3,17 @@
 #club-message {
     height: 600px;
     font-family: Oswald;
+
+}
+
+p {
+
+    font-family: Oswald;
 }
 
 h2 {
 
-    font-family: Vidaloka;
+    font-family: Oswald;
     font-weight: 400;
 }
 
@@ -42,6 +48,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+
 }
 
 .right-about-heading {
@@ -64,6 +71,7 @@ hr {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+    font-family: Oswald;
 }
 
 #circle-container {
