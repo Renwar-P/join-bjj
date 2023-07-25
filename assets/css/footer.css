@@ -1,10 +1,18 @@
 footer {
-    height: 150px;
+    height: 140px;
 }
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
 
 .social-networks i {
-
-
-    color: #3A5199;
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #2D2F33;
 }

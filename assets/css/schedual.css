@@ -11,11 +11,11 @@
     color: #FFFFFF;
     background-color: #3A5199;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid#FFFFFF;
     box-sizing: border-box;
     padding: 5px;
     border-radius: 5px;
-    font-family: Vidaloka;
+    font-family: Roboto;
     font-weight: lighter;
 }
 
@@ -27,6 +27,6 @@
 
 #schedual h3 {
     color: #FFFFFF;
-    font-family: Vidaloka;
+    font-family: Roboto;
     font-weight: lighter;
 }

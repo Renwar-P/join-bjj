@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Vidaloka&display=swap');
-
 #club-message {
     height: 600px;
     font: Oswald;
@@ -8,7 +6,7 @@
 
 p {
 
-    font-family: Vidaloka;
+    font-family: Roboto;
     font-style: italic;
     color: #2D2F33;
 
