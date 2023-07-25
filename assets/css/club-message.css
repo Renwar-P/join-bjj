@@ -84,16 +84,18 @@ hr {
 
     width: 500px;
     height: 500px;
-    padding: 20px;
+
     border-style: none;
-    border-color: #ccc;
+    color: #FFFFFF;
     border-width: 1px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+
 }
 
 .message-pic {
     width: 500px;
     height: 140px;
+    border-radius: 5px;
 }

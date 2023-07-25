@@ -1,27 +1,32 @@
 #schedual {
     display: flex;
     flex-direction: row;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
-    overflow: hidden;
     justify-content: space-between;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #schedual div {
     color: #FFFFFF;
     background-color: #3A5199;
-
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
     padding: 5px;
-
+    border-radius: 5px;
+    font-family: Vidaloka;
+    font-weight: lighter;
 }
 
 #schedual h2 {
     color: #FFFFFF;
+    font-family: Oswald;
+    font-weight: 300;
+}
+
+#schedual h3 {
+    color: #FFFFFF;
+    font-family: Vidaloka;
+    font-weight: lighter;
 }
