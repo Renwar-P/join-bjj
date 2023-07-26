@@ -1,5 +1,5 @@
 body {
-    font-family: Oswald, Roboto;
+
     margin: 0;
     padding: 20px;
 }
@@ -29,7 +29,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px #2D2F33;
 }
 
 @media screen and (max-width: 768px) {
