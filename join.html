@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="assets/css/club-message.css">
     <link rel="stylesheet" href="assets/css/schedual.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/gallery.css">
-    <link rel="stylesheet" href="assets/css/join.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/join.css">
+
+
+
 
     <title>JOIN</title>
 
@@ -64,15 +66,44 @@
 
     </header>
 
-    <main>
-        <div class="sign-up">
-            <p>Here is some placheolder text</p>
 
 
 
 
-        </div>
-    </main>
+
+
+
+
+    <section class="form-section">
+
+        <h1>Sign up now and get a two weeks free trial</h1>
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2> Let's get you signed up!</h2>
+            <label class="text-input" for="fname">First Name</label>
+            <input class="text-input" type="text" id="fname" name="first_name" required>
+            <label class="text-input" for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" required>
+            <label class="text-input" for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            <label for="kids">Kids</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+
+            <!-- Second Running Preference: Trail -->
+            <label for="BJJ">BJJ</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+
+            <!-- Third Running Preference: Both -->
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+
+
+
+            <input class="join-button" type="submit" value="Let's Roll!">
+        </form>
+    </section>
+
+
+
 
 
     <footer>
