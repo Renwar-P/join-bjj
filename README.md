@@ -58,7 +58,7 @@ The gallery section felt like a very obvious page to include. To give the websit
 To feature a join page gives the user the oppurtunity to sign up for a two week free training pass. It also gives the chance to sign up the rest of the family as well. It too is placed conviniently inside the navigation bar. 
 
 
-<img src="assets/images/screenshot-join.png" alt="a image of the join section">
+<img src="assets/images/screenshot-join-1.png" alt="a image of the join section">
 
 
 
@@ -93,6 +93,7 @@ This site has a couple of feautures that required testing.
    - The middle section of club-message containing the images was a bit of a challenge in the beginning. With some trial an error i got the wanted outcome by changing the display to flex.   
    -  A reccuring bug that made it impossible to affect with CSS code was the lacking of the link element in the HTML structure. The first time it happened I spend some time to figure out the problem. When it became clear that nothing happened when I typed in CSS code, I understood that there must be a problem with linking. 
     -  When fitting the contents to smaller screen sizes I noticed that the navigation bar content appeared partly on top of each other. I knew that the solution had to be within the media queries css code. After some trial and error I found the solution within the line-height property of the navigation bar menu. 
+   -  When going threw the README file I noticed that the lastname label on signup form appeared above the wrong input field. At first I was convinced that the problem was within the HTML structure. But after going threw it I finally solved within the CSS code. I changed the font-size. 
 - Unfixed Bugs  
   -  There are no unfixed bugs.
   
