@@ -108,7 +108,10 @@ The live link to the website is [here](https://validator.w3.org/)
 
 - Content
   
-  The navigation bar has links to three different pages. They all work correctly and provides with the oppurtunity to easily navigate around.
+  - The fonts used in this project are Oswald and Roboto. The inspiration to use this pair came from fontpair.co
+ 
+  - The color combinations used in this project is titled "Sleek & Modern" and came from canva.com/learn/100-color-combinations/ I choose these colors because i felt that they would work with the overall themes and colors coming from the images. 
+
 
 - Media
   
