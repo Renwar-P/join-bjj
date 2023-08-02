@@ -85,6 +85,17 @@ This site has a couple of feautures that required testing.
 
   
   - No CSS errors were returned when passing threw the [W3C validator](https://validator.w3.org/)
+  - I checked how accessible the page is by running it threw Lighthouse in devtools.   
+
+<img src="assets/images/screenshot-lighthouse.png" alt="a image of the lighthouse result">
+
+-  Bugs
+   - The middle section of club-message containing the images was a bit of a challenge in the beginning. With some trial an error i got the wanted outcome by changing the display to flex.   
+   -  A reccuring bug that made it impossible to affect with CSS code was the lacking of the link element in the HTML structure. The first time it happened I spend some time to figure out the problem. When it became clear that nothing happened when I typed in CSS code, I understood that there must be a problem with linking. 
+    -  When fitting the contents to smaller screen sizes I noticed that the navigation bar content appeared partly on top of each other. I knew that the solution had to be within the media queries css code. After some trial and error I found the solution within the line-height property of the navigation bar menu. 
+- Unfixed Bugs  
+  -  There are no unfixed bugs.
+  
   
   
   
@@ -111,9 +122,16 @@ The live link to the website is [here](https://validator.w3.org/)
   - The fonts used in this project are Oswald and Roboto. The inspiration to use this pair came from fontpair.co
  
   - The color combinations used in this project is titled "Sleek & Modern" and came from canva.com/learn/100-color-combinations/ I choose these colors because i felt that they would work with the overall themes and colors coming from the images. 
-
+   - The inspiration behind the header comes from the Love Running project. I thought that I could rearrange navigation bar so that it appeared in a column. 
+  - The inspiration and HTML structure behind the club-message section comes from the Love Running project. I liked the structure and wanted to change the middle section to images stacked on top of each other. By transforming what I had learned from the Love Running project I tested my new skills.To the middle section of the club message page I found the youtube course provided by SuperSimpleDev on HTML and CSS to be helpful. Heres is the adress to that course <https://www.youtube.com/watch?v=G3e-cpL7ofc&t=13846s>
+  - The schedual section HTML comes from the times section of the Love Running project. The HTML and CSS code are tweaked to fit in to the new page. The background image is removed and instead a color is inserted. 
+  - The gallery page HTML and CSS comes from <https://blog.logrocket.com/responsive-image-gallery-css-flexbox/> It is tweaked to in size and CSS. To the gallery page I have had found the youtube course provided by SuperSimpleDev on HTML and CSS to be helpful. Heres is the adress to that course <https://www.youtube.com/watch?v=G3e-cpL7ofc&t=13846s>
+  - The HTML and CSS structure of the footer comes from the Love Running projects same section. It is changed in its size, color and content.  
+  - The HTML and CSS structure of the sign up form on the join page is taken from the Love Running project. It is changed in its color, size and content. 
 
 - Media
   
-  The footer section contains four correctly working links to the social media networks instagram, twitter, youtube and facebook.
+ 
+   - The images provided are from the social media pages of my BJJ club Team Leites Stockholm.  
+
 
