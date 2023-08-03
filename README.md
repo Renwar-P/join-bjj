@@ -1,6 +1,6 @@
 # Join BJJ
 
-Have you ever thought about how you would handle a stressful situation? Have you ever had a fullgrown man trying his best to either break your arm or to chooke you? Learning to deal with extreme pressure will help you to thrive in many aspects of life. The goal of this website is to make people step out of their comfort zone, join the fastest growing combatsport in the world and build som muscles. 
+Have you ever thought about how you would handle a stressful situation? Have you ever had a full grown man trying his best to either break your arm or to chooke you? Learning to deal with extreme pressure will help you to thrive in many aspects of life. The goal of this website is to make people step out of their comfort zone, join the fastest growing combat sport in the world and at the same time build som muscles. 
 
 In the process you will evolve as a person and new avenues in life will open up. If you have never tried BJJ than consider this a call to come to the club and experience it first hand. You will not be disappointed. 
 
@@ -30,7 +30,7 @@ To easily aid the website user the navigation bar is located inside the header o
 
 - Feature 3: Schedual
 
-The schedual section of the homepage gives the user a quick access to important information. A clubs schedual is one of the first bits of info a new possible student would like to know. With the schedual a user can plan a possible visit and make more pemanent decisions further on.
+The schedual section of the homepage gives the user a quick access to important information. A clubs schedual is one of the first bits of info a new possible student would like to know. With the schedual a user can plan a possible visit and make more pemanent decision further on.
 
 
  <img src="assets/images/screenshot-schedual.png" alt="a image of the schedual section">
@@ -85,12 +85,12 @@ This site has a couple of feautures that required testing.
 
   
   - No CSS errors were returned when passing threw the [W3C validator](https://validator.w3.org/)
-  - I checked how accessible the page is by running it threw Lighthouse in devtools.   
+  - I checked how accessible the page is by running it threw Lighthouse in Devtools.   
 
 <img src="assets/images/screenshot-lighthouse.png" alt="a image of the lighthouse result">
 
 -  Bugs
-   - The middle section of club-message containing the images was a bit of a challenge in the beginning. With some trial an error i got the wanted outcome by changing the display to flex.   
+   - The middle section of club-message containing the images was a bit of a challenge in the beginning. With some trial an error I got the wanted outcome by changing the display to flex.   
    -  A reccuring bug that made it impossible to affect with CSS code was the lacking of the link element in the HTML structure. The first time it happened I spend some time to figure out the problem. When it became clear that nothing happened when I typed in CSS code, I understood that there must be a problem with linking. 
     -  When fitting the contents to smaller screen sizes I noticed that the navigation bar content appeared partly on top of each other. I knew that the solution had to be within the media queries css code. After some trial and error I found the solution within the line-height property of the navigation bar menu. 
    -  When going threw the README file I noticed that the lastname label on signup form appeared above the wrong input field. At first I was convinced that the problem was within the HTML structure. But after going threw it I finally solved within the CSS code. I changed the font-size. 
@@ -113,7 +113,7 @@ This site was regularly pushed to Github and deployed to Github pages. The deplo
 3, From the source section drop-down menu select the main-branch. Wait a minute for the link to upload. 
 
 
-The live link to the website is [here](https://validator.w3.org/)
+The live link to the website is [here](https://renwar-p.github.io/join-bjj/rg/)
 
 
 ## Credits
